@@ -117,6 +117,14 @@ main {
         height: 120px;
     }
 
-   
-   
+   #d1, #d2, #d3, #d4 {
+       transform: translate(-10%, 10%);
+   }
+
+   #d5, #d6, #d7, #d8 {
+        transform: translate(0%, 9%);
+}
+    #d9, #d10, #d11, #d12 {
+        transform: translate(0%, 9%);
+}
     
