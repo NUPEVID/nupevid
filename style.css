@@ -42,7 +42,7 @@ nav > a {
     color: var(--cor6);
     margin-right: 40px;
     padding: 5px;
-}
+    }
 
 
 nav > a:hover {
@@ -61,6 +61,7 @@ div {
     width: 200px;
     color: var(--cor6);
     margin-bottom: 3px;
+    text-align: center;
  }
 
  div:hover {
@@ -96,17 +97,11 @@ main {
         padding: 15px;    
     }
 
-    footer {
-        background-color: var(--cor5);
-        color: black;
-        text-align: center;
-        padding: 2px;
-        margin: 10px;
-        text-decoration: none;
-    }
+    
 
     .aside {
         margin: auto;
+        
     }
     
     div img {
@@ -119,12 +114,20 @@ main {
 
    #d1, #d2, #d3, #d4 {
        transform: translate(-10%, 10%);
-   }
+    }
 
    #d5, #d6, #d7, #d8 {
         transform: translate(0%, 9%);
-}
+    }
     #d9, #d10, #d11, #d12 {
         transform: translate(0%, 9%);
-}
+    }
     
+   footer {
+        background-color: var(--cor5);
+        color: black;
+        text-align: center;
+        padding: 2px;
+        margin: 10px;
+        text-decoration: none;
+    }
