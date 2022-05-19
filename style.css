@@ -122,8 +122,20 @@ main {
     #d9, #d10, #d11, #d12 {
         transform: translate(0%, 9%);
     }
-    
-   footer {
+ 
+  .container img {
+        padding: 50px;
+        max-width:500px;
+        max-height:300px;
+       
+    }
+       
+    .container {
+        clear: both;
+        margin-bottom: 10px;
+    }
+  
+    footer {
         background-color: var(--cor5);
         color: black;
         text-align: center;
