@@ -42,3 +42,7 @@ a {
 h3 {
     color:bisque;
 }
+
+mark {
+    background-color: yellowgreen;
+}
