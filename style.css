@@ -118,16 +118,6 @@ main {
         margin-bottom: 10px;
     }
   
-    #d1 {
-        width: 200px;
-        height: 150px;
-    }
-
-    #d1 >img {
-        object-fit: contain;
-
-    }
-
     footer {
         background-color: var(--cor5);
         color: black;
