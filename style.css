@@ -2,6 +2,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 :root {
     --cor0: #B45DE3;
     --cor1: #9273FA;
@@ -15,10 +20,6 @@
     
 }
 
-* {
-    margin: 0px;
-    padding: 0px;
-}
 
 body {
     background-color: var(--cor3);
@@ -68,6 +69,16 @@ div {
     background-color: lightgray;
     }
 
+div img {
+        padding: 15px;
+        display: block;
+        margin: auto;
+        width: 180px;
+        height: 150px;
+        object-fit: contain;
+    }
+
+
 main {
         min-width: 300px;
         max-width: 1000px;
@@ -97,14 +108,7 @@ main {
         padding: 15px;    
     }
 
-    div img {
-        padding: 15px;
-        display: block;
-        margin: auto;
-        width: 120px;
-        height: 150px;
-        object-fit: contain;
-    }
+    
 
    .container img {
         padding: 50px;
