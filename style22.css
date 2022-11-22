@@ -47,3 +47,17 @@ h3 {
 mark {
     background-color: yellowgreen;
 }
+
+img {
+    width: 100%;
+    }
+
+.icone >img {
+width: 25%;
+}
+
+.icone1 >img {
+    width: 5%;
+    }
+
+    
