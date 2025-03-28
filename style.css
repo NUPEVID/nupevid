@@ -130,3 +130,11 @@ main {
         margin: 10px;
         text-decoration: none;
     }
+
+.icone >img {
+width: 25%;
+}
+
+.icone1 >img {
+    width: 5%;
+    }
