@@ -1,38 +1,68 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Protocolo de Atividades</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ajuda – NUPEVID</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>CONTROLE DE PROCESSOS - NUPEVID</h1>
-    </header>
-    <nav>
-        <a href="index.html">Menu Principal</a>
-        <a href="estatística.html">Estatísticas</a>
-        <a href="link.html">Links</a>
-    </nav>
-    <main>
-    <article>
-            <img src="imagens/nupevid-pp.jpeg" alt="NUPEVID">
-            <h1>Núcleo de Prevenção e Enfrentamento a Violência Doméstia e Familiar Contra a Mulher - NUPEVID</h1>
-            <h2>Ajuda Atividades CEMMPU</h2>
-   
-            <div class="ajuda" id="d1"></divid><a href="sei.html" target="_blank" rel="external"><img src="imagens/sei.png" alt="SISEG"></a>
-            </div>
-            
-            <div class="ajuda" id="d2"></divid><a href="siseg.html" target="_blank" rel="external"><img src="imagens/siseg3.png" alt="SISEG"></a>
-            </div>
-            
-            <div class="ajuda" id="d3"></divid><a href="retaguarda.html" target="_blank" rel="external"><img src="imagens/retaguarda3.png" alt="RETAGUARDA"></a>
-            </div>
-            <div class="ajuda" id="d4"></divid><a href="mpu.html" target="_blank" rel="external"><img src="imagens/mpu.png" alt="CADASTRO MPU"></a>
-           </div>
-    </article>
-    </main>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <img src="imagens/nupevid-pp.jpeg" alt="Logo NUPEVID" class="header-logo">
+      <div class="header-text">
+        <h1>CONTROLE DE PROCESSOS</h1>
+        <p class="header-subtitle">
+          Núcleo de Prevenção e Enfrentamento à Violência Doméstica e
+          Familiar Contra a Mulher – NUPEVID
+        </p>
+      </div>
+    </div>
+  </header>
+
+  <nav class="site-nav" aria-label="Navegação principal">
+    <ul>
+      <li><a href="index.html">🏠 Menu Principal</a></li>
+      <li><a href="estatistica.html">📊 Estatísticas</a></li>
+      <li><a href="link.html">🔗 Links</a></li>
+    </ul>
+  </nav>
+
+  <main class="site-main">
+    <h2 class="page-title">Ajuda – Atividades CEMMPU</h2>
+
+    <section class="card-grid" aria-label="Sistemas disponíveis">
+
+      <a href="sei.html" class="card" target="_blank" rel="noopener">
+        <img src="imagens/sei.png" alt="SEI">
+        <span class="card-label">SEI</span>
+      </a>
+
+      <a href="siseg.html" class="card" target="_blank" rel="noopener">
+        <img src="imagens/siseg3.png" alt="SISEG">
+        <span class="card-label">SISEG</span>
+      </a>
+
+      <a href="retaguarda.html" class="card" target="_blank" rel="noopener">
+        <img src="imagens/retaguarda3.png" alt="Retaguarda">
+        <span class="card-label">Retaguarda</span>
+      </a>
+
+      <a href="mpu.html" class="card" target="_blank" rel="noopener">
+        <img src="imagens/mpu.png" alt="Cadastro MPU">
+        <span class="card-label">Cadastro MPU</span>
+      </a>
+
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="ano"></span> NUPEVID – PMRO. Todos os direitos reservados.</p>
+  </footer>
+
+  <script>
+    document.getElementById('ano').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>

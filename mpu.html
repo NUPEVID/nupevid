@@ -1,471 +1,430 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Informações Cadastro MPU</title>
-    <link rel="stylesheet" href="style22.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro MPU – NUPEVID</title>
+  <link rel="stylesheet" href="style.css">
+  
 </head>
 <body>
-    <main>
-    <h1>Cadastro de MPU - SISEG <a name="text1"></a></h1>
-    <br></br>
-    <h2><a>Para cadastrar a Medida Protetiva de Urgência - MPU no SISEG se faz necessário que haja uma ocorrência vinculada.</a></h2>
-    <ol>
-        <br></br><li><a href="#text2">Link para acesso ao SISEG</a></li>
-        <br></br><li><a href="#text2">Pesquisar ocorrência</a></li>
-        <br></br> <li><a href="#text2">Cadastrar MPU</a></li>
-        <br></br>  <li><a href="#text3">Edição de Ocorrência</a></li>
-        <br></br>  <li><a href="#text4">Cadastro de Ocorrência</a></li>
-        <br></br>  <li><a href="#text5">Programação Operacional</a></li>
-        <br></br>  <li><a href="#text6">Visita pelo Mobile</a></li>
-        <br></br>  <li><a href="pdf/Cadastro de Medida Protetiva no SISEG.pdf" download="Cadastro de Medida Protetiva no SISEG.pdf" target="_blank">Baixar Instrução em PDF</a></li>
-    </ol>
-    <br></br>
-    <h2><a href="#text2">Cadastro de MPU no SISEG</a></h2>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <img src="imagens/nupevid-pp.jpeg" alt="Logo NUPEVID" class="header-logo">
+      <div class="header-text">
+        <h1>CONTROLE DE PROCESSOS</h1>
+        <p class="header-subtitle">
+          Núcleo de Prevenção e Enfrentamento à Violência Doméstica e
+          Familiar Contra a Mulher – NUPEVID
+        </p>
+      </div>
+    </div>
+  </header>
+
+  <nav class="site-nav" aria-label="Navegação principal">
+    <ul>
+      <li><a href="index.html">🏠 Menu Principal</a></li>
+      <li><a href="ajuda.html">❓ Ajuda</a></li>
+      <li><a href="estatistica.html">📊 Estatísticas</a></li>
+      <li><a href="link.html">🔗 Links</a></li>
+    </ul>
+  </nav>
+
+  <main class="site-main">
+    <div class="mpu-content">
+
+      <h2 class="page-title" id="topo">Cadastro de MPU – SISEG</h2>
+
+      <p class="alerta-info">
+        Para cadastrar a Medida Protetiva de Urgência (MPU) no SISEG é necessário que haja uma <strong>ocorrência vinculada</strong>.
+      </p>
+
+      <!-- ÍNDICE -->
+      <nav class="indice" aria-label="Índice da página">
+        <h2>📋 Índice</h2>
         <ol>
-            <a name="text2"></a><br>
-            <li>Link para o Sisetema SISEG <br> <a href="https://emergencia.sesdec.ro.gov.br/sade/sade/public/index.php/login" target="_blank">https://emergencia.sesdec.ro.gov.br/sade/sade/public/index.php/login</a></li> <br>
+          <li><a href="#cadastro-mpu">Cadastro de MPU no SISEG</a></li>
+          <li><a href="#edicao-ocorrencia">Edição de Ocorrência para MPU</a></li>
+          <li><a href="#sem-ocorrencia">MPU sem Ocorrência – Cadastro de Ocorrência</a></li>
+          <li><a href="#programacao">Programação Operacional</a></li>
+          <li><a href="#mobile">Visita pelo Mobile</a></li>
+          <li>
+            <a href="pdf/Cadastro de Medida Protetiva no SISEG.pdf"
+               download="Cadastro de Medida Protetiva no SISEG.pdf"
+               target="_blank">
+              📥 Baixar instrução em PDF
+            </a>
+          </li>
+        </ol>
+      </nav>
 
-            <li>Link do sistema SISEG Treinamento <br> <a href="https://treinamento.emergencia.sesdec.ro.gov.br/sade/sade/public/index.php/login" target="_blank">https://treinamento.emergencia.sesdec.ro.gov.br/sade/sade/public/index.php/login</a> <br> <br>
-                
-            </li> <br>
+      <!-- ── SEÇÃO 1 ── -->
+      <hr class="secao-sep">
+      <section id="cadastro-mpu" aria-labelledby="titulo-cadastro">
+        <h2 id="titulo-cadastro">1. Cadastro de MPU no SISEG</h2>
 
-            <li>Utilizando a senha do perfil MPU acessar o SISEG</li><a name="text1"></a><br>
-            <li>Após acessar o menu CADASTROS - Opção Medida Protetiva de Urgência</li> <br>
-            <div class="container">
-                <img src="imagens/MPU/Imag1.png" alt="informações"><br>
+        <ol>
+          <li>
+            Acessar o sistema SISEG:<br>
+            <a href="https://emergencia.sesdec.ro.gov.br/sade/sade/public/index.php/login" target="_blank" rel="noopener">
+              https://emergencia.sesdec.ro.gov.br/sade/sade/public/index.php/login
+            </a>
+          </li>
+          <li>
+            Sistema SISEG – Treinamento:<br>
+            <a href="https://treinamento.emergencia.sesdec.ro.gov.br/sade/sade/public/index.php/login" target="_blank" rel="noopener">
+              https://treinamento.emergencia.sesdec.ro.gov.br/sade/sade/public/index.php/login
+            </a>
+          </li>
+          <li>Acessar o SISEG utilizando a senha do perfil <strong>MPU</strong>.</li>
+          <li>
+            Após acessar, ir ao menu <strong>CADASTROS → Medida Protetiva de Urgência</strong>.<br>
+            <img src="imagens/MPU/Imag1.png" alt="Menu Cadastros – Medida Protetiva de Urgência">
+            <p class="alerta-info">Realizar pesquisa pelo <strong>PROTOCOLO</strong> da ocorrência ou pelo nome do <strong>ENVOLVIDO</strong>.</p>
+          </li>
+          <li>
+            Após localizar a ocorrência, clicar no ícone <span class="icone-inline"><img src="imagens/MPU/img3.png" alt="Gerar MPU"></span> <strong>Gerar MPU</strong>.<br>
+            <img src="imagens/MPU/img2.png" alt="Tela de pesquisa de ocorrência">
+          </li>
+          <li>
+            Preencher todos os campos da tela seguinte com os dados da Medida Protetiva e anexar o arquivo em PDF.<br>
+            <img src="imagens/MPU/img4.png" alt="Tela de cadastro da MPU">
+            <p class="alerta-info">É possível anexar mais de um arquivo PDF para a mesma MPU, porém é necessário <strong>salvar primeiro</strong> e depois acessar novamente a Medida para anexar o segundo arquivo.</p>
+            <img src="imagens/MPU/img5.png" alt="Anexo de PDF">
+          </li>
+          <li>
+            Nos campos destinados ao Agressor (<strong>Restrição · Grau de Risco · Requerido notificado · Condição do Agressor · Mandado de Prisão</strong>), selecionar a opção correspondente
+            <span class="icone-inline"><img src="imagens/MPU/img6.png" alt="caixa de seleção"></span>
+            e clicar em <strong>Adicionar</strong>
+            <span class="icone-inline"><img src="imagens/MPU/img7.png" alt="botão adicionar"></span>.<br>
+            <img src="imagens/MPU/img8.png" alt="Campos do agressor">
+            <img src="imagens/MPU/img9.png" alt="Campos do agressor">
+            <img src="imagens/MPU/img10.png" alt="Campos do agressor">
+          </li>
+          <li>Salvar as informações.</li>
+        </ol>
+
+        <a href="#topo" class="topo">▲ Início</a>
+      </section>
+
+      <!-- ── SEÇÃO 2 ── -->
+      <hr class="secao-sep">
+      <section id="edicao-ocorrencia" aria-labelledby="titulo-edicao">
+        <h2 id="titulo-edicao">2. Editar Ocorrência para MPU no SISEG</h2>
+
+        <p>Caso o nome do Agressor não apareça, retornar à tela <strong>"Cadastro Medida Protetiva Urgência – MPU"</strong> para editar a ocorrência.</p>
+
+        <ol>
+          <li>
+            Na tela "Cadastro MPU", localizar a ocorrência e clicar no ícone de edição
+            <span class="icone-inline"><img src="imagens/MPU/img12a.png" alt="ícone editar"></span>.<br>
+            <img src="imagens/MPU/img11.png" alt="Retorno à tela de cadastro">
+            <img src="imagens/MPU/img12.png" alt="Localizar e editar ocorrência">
+          </li>
+          <li>
+            Na tela de edição da ocorrência:<br>
+            <img src="imagens/MPU/img13.png" alt="Tela de edição">
+            <div class="campo">
+              <strong>1º</strong> Alterar o Código de Encerramento (ex.: <em>CF-24-Inválido</em>) para permitir a edição dos dados.<br>
+              <img src="imagens/MPU/img14.png" alt="Alterar código de encerramento">
             </div>
-            <p>
-                *Realizar pesquisa pelo <mark>PROTOCOLO</mark> da ocorrência ou pelo nome do ENVOLVIDO.<br>
-            </p>
-
-            <p>
-              <li> Após localizar a ocorrência e clicar no ícone Gerar MPU 
-                <div class="icone1">
-                <img src="imagens/MPU/img3.png" alt="informações"><br>
-              </div>             
-                <img src="imagens/MPU/img2.png" alt="informações">
-              </li><a name="text2"></a>
-              
-            </p>
-
-            <p>
-                <li>
-                    Realizar o preenchimento de todos os campos da tela seguinte, com os dados da Medida Protetiva e anexar o arquivo em PDF.
-                </li>
-                <img src="imagens/MPU/img4.png" alt="informações"><br>
-            </p>
-            <p>* É possível anexar mais de um arquivo PDF para a mesma Medida Protetiva, no entando tem que salvar primeiro as informações e depois acessar novamente a Medida para anexar um segundo arquivo PDF.</p>
-            <img src="imagens/MPU/img5.png" alt="informações"><br>
-            <p>
-            Nos campos destinados as informações para o Agressor:<br> 
-            <strong>Restrição - Grau de Risco - Requerido notificado - Condição do Agressor e Mandado de Prisão Agressor.</strong> <br>
-            Deve-se selecionar a opção correspondente na caixa de seleção 
-            
-            <div class="icone">
-                <img src="imagens/MPU/img6.png" alt="informações">
-            </div> <br> e após clicar em adicionar 
-            
-            <div class="icone">
-            <img src="imagens/MPU/img7.png" alt="informações"> <br>
+            <div class="campo">
+              <strong>2º</strong> Acessar o menu <strong>ENVOLVIDOS</strong>.<br>
+              <img src="imagens/MPU/img15.png" alt="Menu Envolvidos">
             </div>
-            
-            <img src="imagens/MPU/img8.png" alt="informações">
-            <img src="imagens/MPU/img9.png" alt="informações">
-            <img src="imagens/MPU/img10.png" alt="informações"> <br>
-            Salvar as informações.        
-           
-            </p>
-                 <a name="text3"></a><br>
-                 <h2><a href="#text3">Editar ocorrência para MPU no SISEG</a></h2>
-                </p>
+          </li>
+          <li>
+            Rolar a tela até o final e clicar no ícone
+            <span class="icone-inline"><img src="imagens/MPU/img17.png" alt="ícone editar envolvido"></span>
+            correspondente ao <strong>Autor</strong> ou à <strong>Vítima</strong>.<br>
+            <img src="imagens/MPU/img16.png" alt="Lista de envolvidos">
+            <img src="imagens/MPU/img18.png" alt="Edição do envolvido">
+          </li>
+          <li>
+            Acrescentar os dados necessários, rolar até o final e salvar.<br>
+            <img src="imagens/MPU/img19.png" alt="Salvar envolvido">
+          </li>
+          <li>
+            Fechar a janela no <strong>X</strong>.
+            <p class="alerta"><strong>Importante:</strong> não é necessário retornar à aba Dados da Ocorrência.</p>
+            <img src="imagens/MPU/img20.png" alt="Fechar janela">
+          </li>
+        </ol>
 
-                <li>
-                Caso não aparecer o nome do Agressor <br>
-                </li>
-            <br>Deve-se retornar a tela anterior “Cadastro Medida Protetiva Urgência - MPU” para fazer a edição da OCORRÊNCIA <br>
-                <br><img src="imagens/MPU/img11.png" alt=""> <br>
-                <br> Na tela “Cadastro Medida Protetiva Urgência - MPU” localizar a OCORRÊNCIA e clicar no ícone 
-                <div class="icone1">
-                <img src="imagens/MPU/img12a.png" alt=""> <br>
-                </div><br>
-                <img src="imagens/MPU/img12.png" alt="">
-            </p>
-                                 
-            <p>
-                <li>
-                    Tela de edição da OCORRÊNCIA
-                    <img src="imagens/MPU/img13.png" alt=""> <br>
-                </li>
-            </p>
-                <p>
-                    1º Alterar o Código de Encerramento para um diferente do que está salvo podendo ser o “CF-24-Inválido” para permitir edição dos dados da OCORRÊNCIA. <br>
-                    <img src="imagens/MPU/img14.png" alt=""> <br>
-                </p>
-                <p>
-                    2º Acessar o Menu ENVOLVIDOS <br>
-                    <img src="imagens/MPU/img15.png" alt=""> <br>
-                </p>
-                <p>
-                    Rolar a tela até o final <br>
-                    <img src="imagens/MPU/img16.png" alt=""> <br>
-                    
-                    Clicar no ícone 
-                    <div class="icone1">
-                    <img src="imagens/MPU/img17.png" alt=""> <br> 
-                    </div>
+        <a href="#topo" class="topo">▲ Início</a>
+      </section>
 
-                    correspondente ao <strong>Autor ou Vítima</strong>  para fazer a edição dos dados dos <strong>Envolvidos</strong>. <br>
-                    <img src="imagens/MPU/img18.png" alt=""> <br>
-                </p>
+      <!-- ── SEÇÃO 3 ── -->
+      <hr class="secao-sep">
+      <section id="sem-ocorrencia" aria-labelledby="titulo-sem-oc">
+        <h2 id="titulo-sem-oc">3. MPU sem Ocorrência – Cadastro de Ocorrência</h2>
 
-                <p>
-                    Após acrescentar os dados necessárias rolar a tela até o final e  salvar as informações. <br>
-                    <img src="imagens/MPU/img19.png" alt="">
-                </p>
+        <p>Quando a MPU não possui ocorrência vinculada, é necessário criar uma para que se possa anexar a medida protetiva e liberar a programação operacional das visitas.</p>
 
-                <p>
-                    Pronto foram adicionado as informações dos Envolvidos, fechar a janela no <strong>X</strong>. <br>
-                    <mark>*** Importante não é necessário retornar para a aba Dados da Ocorrência ***.</mark> <br>
-                    <br> <img src="imagens/MPU/img20.png" alt="">
-                </p>
-            <a href="#text1">Inicio</a>
-            </p>
-            <a name="text4"></a><br>
-            <h2><a href="#text4">MEDIDAS PROTETIVAS QUE NÃO POSSUEM OCORRÊNCIA</a></h2>
-            </p>
-            <p>Deve-se criar uma ocorrência para que se possa anexar uma medida protetiva e liberar a programação operacional das visitas. <br>
-            Com a senha do perfil DESPACHADOR acessar o SISEG <br>
-            Clicar no menu “Gerar Ocorrência”</p>
-            <p>
-                <img src="imagens/MPU/img22.png" alt=""> <br>
-            Fazer o prenchimento dos seguinte campos <br>
-            Descrição = <strong>Medida Protetiva de Urgência - MPU</strong> <br>
-            Agência = <strong>PM</strong><br>
-            Natureza = <strong>lesão Corporal</strong>  <br>
-            Marcar os campos de nível de risco =  <br>
-            Classificação = <strong>Ocorrência</strong> <br>
-            Local = <strong>Direto no Quartel</strong> <br>
-            Nome = <strong>Analista</strong> <br>
-            Endereço = <strong>dos envolvidos</strong> <br>
-            <img src="imagens/MPU/img22B.png" alt=""> <br>
-            Salvar informações <br>
-            * Anotar o número do protocolo da OCORRÊNCIA
-            </p>
-            <p>
-                <img src="imagens/MPU/img23.png" alt="">
-            </p>
-            <p>
-              <strong>ENCERRAMENTO</strong> <br>
-            Após cadastrar a ocorrência ir para o menu Acompanhar Ocorrências, localizar o protocolo correspondente e clicar em "Alterar para pendente" <br> 
-            <img src="imagens/MPU/img69.png" alt=""> <br>
-            Após acessar o menu Alterar para pendente <br> 
-            <img src="imagens/MPU/img70.png" alt=""> <br> 
-            clicar no ícone 
-            <div class="icone1">
-            <img src="imagens/MPU/img24.png" alt="">para fazer o encerramento. <br>
+        <ol>
+          <li>Acessar o SISEG com a senha do perfil <strong>DESPACHADOR</strong>.</li>
+          <li>
+            Clicar no menu <strong>"Gerar Ocorrência"</strong>.<br>
+            <img src="imagens/MPU/img22.png" alt="Menu Gerar Ocorrência">
+          </li>
+          <li>
+            Preencher os campos:
+            <div class="campo">
+              <strong>Descrição:</strong> Medida Protetiva de Urgência – MPU<br>
+              <strong>Agência:</strong> PM<br>
+              <strong>Natureza:</strong> Lesão Corporal<br>
+              <strong>Nível de risco:</strong> marcar conforme o caso<br>
+              <strong>Classificação:</strong> Ocorrência<br>
+              <strong>Local:</strong> Direto no Quartel<br>
+              <strong>Nome:</strong> Analista<br>
+              <strong>Endereço:</strong> dos envolvidos
             </div>
-            <img src="imagens/MPU/img25.png" alt="">
-            </p>
-            
-            <p>
-            <strong>DADOS DA OCORRÊNCIA - CAMPOS</strong> <br>
-            Código de Encerramento = Usar o CF 25 - Dados cadastrados de outros sistemas/instituições;<br>
-            Relato policial =  usar texto padrão “Cadastro de MPU”; <br>
-            Natureza = selecionar lesão corporal; <br>
-            Após clicar no ícone 
-            <div class="icone">
-            <img src="imagens/MPU/img26.png"> <br>
+            <img src="imagens/MPU/img22B.png" alt="Campos da ocorrência">
+            <p>Salvar as informações e <strong>anotar o número do protocolo</strong>.</p>
+            <img src="imagens/MPU/img23.png" alt="Número do protocolo">
+          </li>
+        </ol>
+
+        <h3>Encerramento</h3>
+        <ol>
+          <li>
+            Ir ao menu <strong>Acompanhar Ocorrências</strong>, localizar o protocolo e clicar em <strong>"Alterar para pendente"</strong>.<br>
+            <img src="imagens/MPU/img69.png" alt="Alterar para pendente">
+            <img src="imagens/MPU/img70.png" alt="Tela alterar para pendente">
+          </li>
+          <li>
+            Clicar no ícone
+            <span class="icone-inline"><img src="imagens/MPU/img24.png" alt="ícone encerrar"></span>
+            para fazer o encerramento.<br>
+            <img src="imagens/MPU/img25.png" alt="Encerramento da ocorrência">
+          </li>
+        </ol>
+
+        <h3>Dados da Ocorrência – Campos</h3>
+        <div class="campo">
+          <strong>Código de Encerramento:</strong> CF 25 – Dados cadastrados de outros sistemas/instituições<br>
+          <strong>Relato policial:</strong> usar texto padrão "Cadastro de MPU"<br>
+          <strong>Natureza:</strong> Lesão Corporal
+        </div>
+        <p>Após preencher, clicar no ícone <span class="icone-inline"><img src="imagens/MPU/img26.png" alt="salvar"></span>.</p>
+        <img src="imagens/MPU/img27.png" alt="Dados da ocorrência">
+
+        <h3>Envolvidos – Campos</h3>
+        <p>Preencher primeiro as informações do <strong>Autor</strong>:</p>
+        <div class="campo">
+          Nome completo · Data de nascimento · Telefone · RG / UF Órgão Expedidor<br>
+          <strong>Tipo de Envolvimento:</strong> Autor<br>
+          <strong>Fato Vinculado:</strong> Lesão Corporal<br>
+          <strong>Violência doméstica:</strong> Sim
+        </div>
+        <img src="imagens/MPU/img28.png" alt="Dados do autor">
+
+        <p class="alerta-info">O campo <strong>Vínculo com o Agressor</strong> é preenchido somente para a <strong>Vítima</strong>.</p>
+
+        <div class="campo">
+          <strong>Local de condução:</strong> Outros locais<br>
+          <strong>Prisão/apreensão:</strong> conforme o caso
+        </div>
+        <img src="imagens/MPU/img29.png" alt="Local de condução">
+
+        <p><strong>Campos obrigatórios:</strong></p>
+        <div class="campo">
+          Sexo · Raça/cor da pele · Endereço<br>
+          <strong>CPF:</strong> obrigatório para habilitar o cadastro da MPU
+        </div>
+        <img src="imagens/MPU/img30.png" alt="Campos obrigatórios">
+
+        <p>Após adicionar o Autor, voltar ao início da página para adicionar a <strong>Vítima</strong> com os mesmos campos, acrescentando o <strong>Vínculo com o Agressor</strong>.</p>
+        <img src="imagens/MPU/img31.png" alt="Dados da vítima">
+
+        <p>Com a vítima adicionada, clicar na aba <strong>"Dados da Ocorrência"</strong> e finalizar clicando no ícone no canto inferior direito.</p>
+        <img src="imagens/MPU/img32.png" alt="Finalizar ocorrência">
+        <p class="alerta-info">A ocorrência sairá da tela de andamentos e ficará disponível para cadastro da MPU no perfil MPU.</p>
+
+        <a href="#topo" class="topo">▲ Início</a>
+      </section>
+
+      <!-- ── SEÇÃO 4 ── -->
+      <hr class="secao-sep">
+      <section id="programacao" aria-labelledby="titulo-prog">
+        <h2 id="titulo-prog">4. Programação Operacional</h2>
+
+        <p>
+          📹 <a href="https://pmro.com.br/sispart/parte/tutoriais/PROGRAMACAO_OPERACIONAL.mp4" target="_blank" rel="noopener">Acessar vídeo de instrução sobre Programação Operacional</a>
+        </p>
+
+        <p>Para realizar a Programação é necessário ter o <strong>número da MPU</strong>. A pesquisa pode ser feita pelo <strong>PROTOCOLO</strong> da ocorrência ou pelo nome dos <strong>ENVOLVIDOS</strong>.</p>
+
+        <ol>
+          <li>
+            Acessar menu <strong>CADASTROS → Medida Protetiva de Urgência</strong>, informar o número da MPU, selecionar a Área de Despacho e clicar em <strong>Pesquisa</strong>.<br>
+            <img src="imagens/MPU/img1B.png" alt="Pesquisa de MPU">
+          </li>
+          <li>
+            Acessar menu <strong>CADASTROS → Programação Operacional</strong>.<br>
+            <img src="imagens/MPU/img33.png" alt="Menu Programação Operacional">
+          </li>
+          <li>
+            Rolar até o final da página e clicar em <strong>NOVO</strong>.<br>
+            <img src="imagens/MPU/img34.png" alt="Botão Novo">
+          </li>
+          <li>
+            Preencher todos os campos:
+            <div class="campo">
+              <strong>Descrição:</strong> nome da Patrulha (ex.: Patrulha Maria da Penha 1º BPM)<br>
+              <strong>Medida Protetiva de Urgência:</strong> pesquisar a MPU desejada<br>
+              <strong>Local da Programação:</strong> área de atuação da patrulha<br>
+              <strong>Tipo de Operação:</strong> Visita MPU<br>
+              <strong>Data início / Data fim · Hora inicial / Hora final</strong>
             </div>
-
-            <img src="imagens/MPU/img27.png" alt="">
-            </p>
-
-            <p>
-            <strong>ENVOLVIDOS - CAMPOS</strong> <br>
-            Preencher primeiro as informações do autor. <br>
-            Nome  Completo: <br>
-            Data de nascimento: <br>
-            Telefone: <br>
-            RG:  / UF Órgão Expedidor:  se possuir a informação <br>
-            Tipo de Envolvimento: Autor <br>
-            Fato Vinculado: lesão corporal <br>
-            Violência doméstica: marcar a opção sim <br>
-            <img src="imagens/MPU/img28.png" alt="">
-            </p>
-
-            <p>
-                O campo vínculo com o Agressor só é preenchimento para a Vítima.
-            </p>
-
-            <p>
-                Local de condução = outro locais <br>
-                Prisão/apreensão: <br>
-                <img src="imagens/MPU/img29.png" alt="">
-            </p>
-
-            <p>
-                ** Campos obrigatórios <br>
-                Sexo: <br>
-                Raça cor da pele: <br>
-                Endereço: <br>
-                CPF: deve ser preenchido para habilitar o cadstro da MPU <br>
-                <img src="imagens/MPU/img30.png" alt="">
-            </p>
-
-            <p>Após adicionar o Autor voltar ao inicio da página para adicionar a Vítima preenchendo os mesmos campos preenchidos para o autor. <br>
-                Acrescentando a informação do vínculo com o Agressor. <br>
-                <img src="imagens/MPU/img31.png" alt="">
-            </p>
-
-            <p>
-                Com a vítima adicionada na Ocorrência clicar na aba "Dados da Ocorrência" para finalizar clicando no ícone no canto inferior direito. <br>
-                <img src="imagens/MPU/img32.png" alt=""> <br>
-                Com isso a ocorrência saíra da tela de ocorrências em andamento e estará disponível para cadastro da MPU no perfil MPU.
-            </p>
-            <a href="#text1">Inicio</a>
-
-            </p>
-            <a name="text5"></a><br>
-            <h2><a href="#text5">PROGRAMAÇÃO OPERACIONAL</a></h2>
-            </p>
-            <p>
-                Para acessar Link de Vídeo da instrução sobre a Programação Operacional:
-                <a href="https://pmro.com.br/sispart/parte/tutoriais/PROGRAMACAO_OPERACIONAL.mp4" target="_blank" rel="external">"Clique Aqui"</a>
-            </p>
-            <p>
-                Para fazar a Programação faz necessário ter o número da MPU que vai ser realizada a visita. <br>
-                *Para fazer a Pesquisa <br>
-                Entrar no menu Cadastro / Medida Protetiva de Urgência
-                Digita-se MPU no campo do número da MPU <br>
-                Seleciona a Área de Despacho  <br>
-                e cliqua-se em Pesquisa <br>
-
-                Podendo ser realizada também pesquisa pelo <mark>PROTOCOLO</mark> da ocorrência ou pelo nome dos ENVOLVIDOS.<br>
-                
-                <img src="imagens/MPU/img1B.png" alt="pesquisa"> <br>
-
-                Para inciar a Programação no sistema SISEG entrar no menu “CADASTROS” - “Programação Operacional” <br>
-                <img src="imagens/MPU/img33.png" alt="">
-            </p>
-            <p>
-                Rolar a página até o final e clicar na opção “NOVO” <br>
-                <img src="imagens/MPU/img34.png" alt="">
-            </p>
-            <p>
-                <mark>Preencher todos os campos</mark> <br>
-                Descrição: Colocar o nome da Patrulha “Patrulha Maria da Penha 1º BPM”; <br>
-                Medida Protetiva de Urgência: Pesquisar para qual MPU será realizada a visita; <br>
-                Local da Programação operacional: Área de atuação da patrulha; <br>
-                Tipo de Operação: Visita MPU; <br>
-                Data ínicio:   / Data fim: <br>
-                Hora inicial: / Hora final: <br>
-                Salvar <br>
-                <img src="imagens/MPU/img35.png" alt="">
-            </p>
-            <p>
-                Ao salvar retornar-se para a tela de Pesquisa Programação Operacional <br>
-                Deve-se localizar programação para gerenciar a guarnição de atendimento. <br>
-                
-                <img src="imagens/MPU/img43.png" alt=""> <br>
-                
-                <div class="icone">
-                <img src="imagens/MPU/img36.png" alt=""> <br>
-                </div>
-                
-                <div class="icone1">
-                1º ícone - Gerenciar guarnição <img src="imagens/MPU/img37.png" alt=""> <br>
-                2º ícone - Visualizar observações <img src="imagens/MPU/img38.png" alt=""> <br>
-                3º ícone - Visualizar anexos / observações <img src="imagens/MPU/img39.png" alt=""> <br>
-                4º ícone - Visualizar detalhes <img src="imagens/MPU/img40.png" alt=""> <br>
-                5º ícone - Editar programação <img src="imagens/MPU/img41.png" alt=""> <br>
-                6º ícone - Exclui a programação <img src="imagens/MPU/img42.png" alt=""> <br>
-                </div>
-            </p> <br>
-
-            
-            <p>
-                Vamos clicar no ícone 
-                <div class="icone1">
-                <img src="imagens/MPU/img37.png" alt=""> para empenhar guarnição para realização da visita a MPU. 
-                </div>
-                <br>
-                Na tela seguinte pesquisa-se a guarnição podendo se por “VOUCHER” ou pelo “número da guarnição”.
-            </p>
-                        
-            <p>
-                <img src="imagens/MPU/img44.png" alt="">
-            </p>
-            <p>
-                Clicar no ícone 
-                <div class="icone1">
-                <img src="imagens/MPU/img45.png" alt="">gerenciar tipo de alocação. <br>
-                </div>
-                <img src="imagens/MPU/img46.png" alt=""> <br>
-                Confirmar as informações e salvar.
-            </p>
-
-            <p>
-                Após salvar já está alocada uma guarnição e vai aparecer na tela as informações. <br>
-                <img src="imagens/MPU/img47.png" alt=""> <br>
-                Com as seguintes opções 
-                <div class="icone">
-                <img src="imagens/MPU/img48.png" alt=""> <br>
-                </div>
-                
-                <div class="icone1">
-                1º ícone - Informar chegada <img src="imagens/MPU/img49.png" alt=""><br>
-                2º ícone - Desalocar guarnição <img src="imagens/MPU/img50.png" alt=""><br>
-                3º ícone - Programação não executada  <img src="imagens/MPU/img51.png" alt=""><br>
-                4º ícone - Ativar dedicação exclusiva - nesse caso a patrulha não recebe solicitações do CICC <img src="imagens/MPU/img52.png" alt=""><br>
-                </div>
-                Não sendo necessário fazer alterações.
-            </p>
-
-            <p>
-                <mark>PARA CANCELAR UMA PROGRAMAÇÃO OPERACIONAL</mark> <br>
-                Quando uma programação não for realizada, pode-se desalocar a guarnição empenha através do SISEG. <br>
-                Após localizar a programação desejada clicar no 1º ícone - “Gerenciar guarnição"
-                <div class="icone1">
-                <img src="imagens/MPU/img37.png" alt="">
+            <img src="imagens/MPU/img35.png" alt="Formulário de programação">
+            Salvar.
+          </li>
+          <li>
+            Após salvar, localizar a programação para gerenciar a guarnição.<br>
+            <img src="imagens/MPU/img43.png" alt="Lista de programações">
+            <img src="imagens/MPU/img36.png" alt="Ícones de ação">
+            <div class="campo">
+              <span class="icone-inline"><img src="imagens/MPU/img37.png" alt=""></span> 1º – Gerenciar guarnição<br>
+              <span class="icone-inline"><img src="imagens/MPU/img38.png" alt=""></span> 2º – Visualizar observações<br>
+              <span class="icone-inline"><img src="imagens/MPU/img39.png" alt=""></span> 3º – Visualizar anexos / observações<br>
+              <span class="icone-inline"><img src="imagens/MPU/img40.png" alt=""></span> 4º – Visualizar detalhes<br>
+              <span class="icone-inline"><img src="imagens/MPU/img41.png" alt=""></span> 5º – Editar programação<br>
+              <span class="icone-inline"><img src="imagens/MPU/img42.png" alt=""></span> 6º – Excluir programação
             </div>
-            </p>
-            <p>
-                <img src="imagens/MPU/img47B.png" alt="">
-            </p>
-            <p>
-                Em seguida clicar no ícone “2º ícone - Desalocar guarnição" 
-                <div class="icone1">
-                <img src="imagens/MPU/img45.png" alt=""> <br>
-                </div>
+          </li>
+          <li>
+            Clicar no ícone <span class="icone-inline"><img src="imagens/MPU/img37.png" alt="Gerenciar guarnição"></span> <strong>Gerenciar guarnição</strong>.<br>
+            Pesquisar a guarnição pelo <strong>VOUCHER</strong> ou pelo <strong>número da guarnição</strong>.<br>
+            <img src="imagens/MPU/img44.png" alt="Pesquisa de guarnição">
+          </li>
+          <li>
+            Clicar em <span class="icone-inline"><img src="imagens/MPU/img45.png" alt="Gerenciar tipo de alocação"></span> <strong>Gerenciar tipo de alocação</strong>, confirmar as informações e salvar.<br>
+            <img src="imagens/MPU/img46.png" alt="Tipo de alocação">
+          </li>
+          <li>
+            Após salvar, a guarnição estará alocada.<br>
+            <img src="imagens/MPU/img47.png" alt="Guarnição alocada">
+            <div class="campo">
+              <span class="icone-inline"><img src="imagens/MPU/img49.png" alt=""></span> 1º – Informar chegada<br>
+              <span class="icone-inline"><img src="imagens/MPU/img50.png" alt=""></span> 2º – Desalocar guarnição<br>
+              <span class="icone-inline"><img src="imagens/MPU/img51.png" alt=""></span> 3º – Programação não executada<br>
+              <span class="icone-inline"><img src="imagens/MPU/img52.png" alt=""></span> 4º – Ativar dedicação exclusiva (a patrulha não recebe solicitações do CICC)
+            </div>
+          </li>
+        </ol>
 
-                <img src="imagens/MPU/img47C.png" alt="">
-            </p>
-            <p>
-                Após clicar no X no canto superior direito da janela e retorna para a tela anterior. <br>
-                <img src="imagens/MPU/img47D.png" alt="">
-            </p>
+        <h3>Cancelar uma Programação Operacional</h3>
+        <ol>
+          <li>
+            Localizar a programação e clicar em <span class="icone-inline"><img src="imagens/MPU/img37.png" alt="Gerenciar guarnição"></span> <strong>Gerenciar guarnição</strong>.<br>
+            <img src="imagens/MPU/img47B.png" alt="Gerenciar guarnição">
+          </li>
+          <li>
+            Clicar em <span class="icone-inline"><img src="imagens/MPU/img45.png" alt="Desalocar guarnição"></span> <strong>Desalocar guarnição</strong>.<br>
+            <img src="imagens/MPU/img47C.png" alt="Desalocar guarnição">
+          </li>
+          <li>
+            Fechar a janela clicando no <strong>X</strong> superior direito.<br>
+            <img src="imagens/MPU/img47D.png" alt="Fechar janela">
+          </li>
+          <li>
+            Para <strong>excluir</strong> a programação, localizá-la e clicar no ícone <span class="icone-inline"><img src="imagens/MPU/img42.png" alt="Lixeira"></span> e confirmar.<br>
+            <img src="imagens/MPU/img47E.png" alt="Excluir programação">
+          </li>
+        </ol>
 
-            <p>
-                A programação ainda permanece cadastrada no entanto não está mais empenhada para uma guarnição. <br>
-                Para excluir a programação, localize a programação desejada e clique no ícone  - “Lixeira" e confirme.
-                <div class="icone1">
-                <img src="imagens/MPU/img42.png" alt=""> <br>
-                </div>
-                <br>
-                <img src="imagens/MPU/img47E.png" alt="">
-            </p>
+        <a href="#topo" class="topo">▲ Início</a>
+      </section>
 
-            <a href="#text1">Inicio</a>
+      <!-- ── SEÇÃO 5 ── -->
+      <hr class="secao-sep">
+      <section id="mobile" aria-labelledby="titulo-mobile">
+        <h2 id="titulo-mobile">5. Visita pelo Mobile</h2>
 
-            </p>
-            <a name="text6"></a><br>
-            <h2><a href="#text6">VISITA PELO MOBILE</a></h2>
-            </p>
-            <P>
-                Acessar o Quadro de Avisos <br>
-                <img src="imagens/MPU/img53.png" alt="">
-            </P>
-            <p>
-                Programação Operacional <br>
-                Vai aparecer a programação disponível <br>
-                <img src="imagens/MPU/img54.png" alt="">
-            </p>
-            <p>
-                Tocar em cima das informações para abrir a nova tela. <br>
-                <img src="imagens/MPU/img55.png" alt="">
-            </p>
-            <p>
-                Fazer a verificação dos detalhes da MPU <br>
-                <img src="imagens/MPU/img56.png" alt=""> <br>
-                <img src="imagens/MPU/img57.png" alt="">
-                Fechando a tela retorna-se a visita <br>
-            </p>
+        <ol>
+          <li>
+            Acessar o <strong>Quadro de Avisos</strong>.<br>
+            <img src="imagens/MPU/img53.png" alt="Quadro de Avisos">
+          </li>
+          <li>
+            Acessar <strong>Programação Operacional</strong> — a programação disponível será exibida.<br>
+            <img src="imagens/MPU/img54.png" alt="Programação disponível">
+          </li>
+          <li>
+            Tocar sobre as informações para abrir a nova tela.<br>
+            <img src="imagens/MPU/img55.png" alt="Abrir programação">
+          </li>
+          <li>
+            Verificar os detalhes da MPU.<br>
+            <img src="imagens/MPU/img56.png" alt="Detalhes da MPU">
+            <img src="imagens/MPU/img57.png" alt="Detalhes da MPU">
+            Fechar a tela para retornar à visita.
+          </li>
+          <li>
+            Clicar no ícone <span class="icone-inline"><img src="imagens/MPU/img67.png" alt="Chegada"></span> para registrar a chegada e habilitar a visita.<br>
+            <img src="imagens/MPU/img56 - B.png" alt="Chegada no local">
+          </li>
+          <li>
+            Clicar em <strong>"Clique aqui para registrar visita da MPU"</strong>.<br>
+            <img src="imagens/MPU/img58.png" alt="Registrar visita">
+            <img src="imagens/MPU/img59.png" alt="Perguntas da visita">
+          </li>
+          <li>
+            Selecionar o <strong>Status MPU</strong>:<br>
+            <img src="imagens/MPU/img60.png" alt="Status MPU">
+            <div class="campo">
+              <strong>S01</strong> – Medida Protetiva Ativa <em>(padrão automático)</em><br>
+              <strong>S02</strong> – Medida Protetiva Ativa com Sobreaviso — MPU sendo cumprida, sem indícios de risco. A MPU sai do rol de disponíveis para programação.<br>
+              <strong>S03</strong> – Medida Protetiva Revogada por Solicitação da Vítima — A MPU sai do rol de disponíveis para programação.
+            </div>
+          </li>
+          <li>
+            Selecionar a <strong>Condição MPU</strong>:<br>
+            <img src="imagens/MPU/img61.png" alt="Condição MPU">
+            <div class="campo">
+              <strong>C02</strong> – MPU Não Localizada — não foi possível localizar a vítima. Vai para a caixa do Analista de Inteligência para atualização. Exige preenchimento do relato policial.<br>
+              <strong>C03</strong> – MPU Visita Sem Sucesso — vítima não estava em sua residência. Volta à fila para novo empenho. Exige relato policial.<br>
+              <strong>C04</strong> – MPU Visita Com Sucesso — contato realizado com a vítima. Exige preenchimento de todos os campos.
+            </div>
+          </li>
+          <li>
+            Em <strong>Perguntas Agressor</strong>, selecionar o nome do Agressor e responder as opções.<br>
+            <img src="imagens/MPU/img62.png" alt="Perguntas do agressor">
+          </li>
+          <li>
+            Clicar em <span class="icone-inline"><img src="imagens/MPU/img63.png" alt="Salvar agressor"></span> para salvar as informações do Agressor. Se houver mais de um, acrescentar o segundo; caso contrário, retornar à tela anterior.
+          </li>
+          <li>
+            Incluir o <strong>Relato Policial</strong> da visita e salvar.<br>
+            <img src="imagens/MPU/img64.png" alt="Relato policial">
+          </li>
+          <li>
+            Realizar as assinaturas e confirmar.<br>
+            <img src="imagens/MPU/img65.png" alt="Assinaturas">
+            <img src="imagens/MPU/img66.png" alt="Confirmar assinaturas">
+            Clicar novamente em <strong>Salvar</strong>.
+          </li>
+          <li>
+            Clicar no ícone <span class="icone-inline"><img src="imagens/MPU/img67.png" alt="Encerrar visita"></span> para informar o horário de encerramento da visita.<br>
+            <img src="imagens/MPU/img68.png" alt="Encerramento da visita">
+            Voltar à tela anterior para encerrar o atendimento.
+          </li>
+        </ol>
 
-            <p>
-                Clicar no primeiro ícone 
-                <div class="icone1">
-                <img src="imagens/MPU/img67.png" alt=""> para dar a chegada no local e habilitar  a visita <br>
-                </div>
-                <img src="imagens/MPU/img56 - B.png" alt="">
-            </p>
-            
-            <p>
-                Clicar no texto indicado "Clique aqui para registrar visita da MPU" <br>
-               <img src="imagens/MPU/img58.png" alt=""> <br>
-                Para abrir as perguntas referentes a visita. <br>
-                <img src="imagens/MPU/img59.png" alt="">
-            </p>
-            <p>
-                No STATUS MPU terá as seguintes opções: <br>
-                <img src="imagens/MPU/img60.png" alt="">
-            </p>
+        <a href="#topo" class="topo">▲ Início</a>
+      </section>
 
-            <p>
-                Status MPU <br>
+    </div><!-- /mpu-content -->
+  </main>
 
-                S01 - MEDIDA PROTETIVA ATIVA” (esse status será automático sempre que houver cadastro da MPU no sistema até que essa condição seja alterada via web ou via pmro mobile). <br><br>
-                
-                “S02 - MEDIDA PROTETIVA ATIVA COM SOBREAVISO” (esse status será alterado quando após uma visita a Guarnição indique que a <mark>MPU está sendo cumprida</mark> e não apresenta indícios de risco para vítima, quando estabelecido este Status a medida saíra do rol de MPUs disponíveis para empenho numa programação operacional) <br><br>
-                                
-                “S03 - MEDIDA PROTETIVA REVOGADA POR SOLICITAÇÃO DA VÍTIMA” (esse status será alterado quando a vítima tiver <mark>solicitado a retirada da MPU</mark> para o Tribunal de Justiça, poderá ser alterado via web ou via pmro mobile, este Status a medida saíra do rol de MPUs disponíveis para empenho numa programação operacional). <br>
-            </p>
+  <footer class="site-footer">
+    <p>© <span id="ano"></span> NUPEVID – PMRO. Todos os direitos reservados.</p>
+  </footer>
 
-            <p>
-                No CONDIÇÃO MPU terá as seguintes opções: <br>
-                <img src="imagens/MPU/img61.png" alt="">
-            </p>
-
-            <p>
-                Condição MPU <br><br>
-
-                “C02 - MPU NÃO LOCALIZADA” (essa condição será informada pelo efetivo em campo ou via web quando <mark>não for possível localizar a vítima</mark> quando do comprimento de uma programação operacional de VISITA VÍTIMA DE MPU, toda MPU com essa condição deverá cair na caixa de entrada do usuário do sistema “Analista de Inteligência” realizar atualização dos dados da MPU, exige apenas preenchimento do campo relato policial). <br><br>
-
-                “C03 - MPU VISITA SEM SUCESSO” (essa condição será informada pelo efetivo em campo ou via web quando não for possível localizar <mark>a vítima por não estar em sua residência</mark>, toda MPU com essa condição deverá voltar a fila de MPUs disponíveis para novo empenho em uma programação operacional, exige apenas preenchimento do campo relato policial). <br><br>
-
-                “C04 - MPU VISITA COM SUCESSO” (essa condição será informada pelo efetivo em campo ou via web quando for <mark>realizado contato com a vítima</mark>, exige preenchimento de todos os campos). <br>
-            </p>
-
-            <p>
-                No PERGUNTAS AGRESSOR, selecionar o nome do Agressor e responder as opções: <br>
-                <img src="imagens/MPU/img62.png" alt="">
-            </p>
-            
-            <p>
-                Após clicar no canto superior direito 
-                <div class="icone1">
-                <img src="imagens/MPU/img63.png" alt=""> para salvar as informações do Agressor. <br>
-                </div>
-                Se tiver mais de um agressor acrescentar o segundo agressor, caso contrário retornar para a tela anterior.                
-            </p>
-
-            <p>
-                Incluir o Relato policial da visita. <br>
-                <img src="imagens/MPU/img64.png" alt=""> <br>
-                Salvar as informações.
-            </p>
-
-            <p>
-                Realizar as assinaturas. <br>
-                <img src="imagens/MPU/img65.png" alt=""> <br>
-                <img src="imagens/MPU/img66.png" alt=""> <br>
-                Confirmar as informações. Clicar novamente no botão salvar. <br>
-                
-            </p>
-            
-            <p>
-                Após clicar no ícone 
-                <div class="icone1">
-                <img src="imagens/MPU/img67.png" alt=""> <br> onde será informado o horário do encerramento da VISITA.<br>
-                </div>  
-                
-                <img src="imagens/MPU/img68.png" alt=""> <br>
-                Voltar para a tela anterior encerrando o atendimento.<br>
-            </p>
-
-            <a href="#text1">Inicio</a>
-</main>
+  <script>
+    document.getElementById('ano').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
