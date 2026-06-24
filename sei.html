@@ -5,6 +5,39 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rotinas SEI – NUPEVID</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    /* Estilos básicos para o funcionamento dos slides */
+    .slide {
+      display: none; /* Esconde todos os slides por padrão */
+    }
+    .slide.ativo {
+      display: block; /* Mostra apenas o slide com a classe 'ativo' */
+    }
+    /* Estilização dos botões de navegação */
+    .navegacao-slides {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 30px;
+      padding: 10px 0;
+    }
+    .btn-slide {
+      background-color: #0056b3;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 4px;
+      transition: background 0.3s;
+    }
+    .btn-slide:hover {
+      background-color: #003d7a;
+    }
+    .btn-slide:disabled {
+      background-color: #cccccc;
+      cursor: not-allowed;
+    }
+  </style>
 </head>
 <body>
 
@@ -35,34 +68,30 @@
 
       <h2 class="page-title" id="topo">Rotinas SEI</h2>
 
-      <!-- ÍNDICE -->
-      <nav class="indice" aria-label="Índice da página">
+      <nav class="indice slide ativo" id="slide-indice" aria-label="Índice da página">
         <h2>📋 Índice</h2>
         <ol>
-          <li><a href="#incluir-mpu">Incluir Medida Protetiva no SEI</a>
+          <li><a href="#incluir-mpu" onclick="irParaSlide(1)">Incluir Medida Protetiva no SEI</a>
             <ol>
-              <li><a href="#abrir-arquivo">Abrir o arquivo da MPU</a></li>
-              <li><a href="#checar-info">Checar as informações da MPU</a></li>
-              <li><a href="#checar-endereco">Checar endereço e/ou contato telefônico</a></li>
-              <li><a href="#iniciar-processo">Iniciar Processo na aba PM-CASNUPEVIDPMP</a></li>
-              <li><a href="#inserir-doc">Inserir documento</a></li>
-              <li><a href="#marcador">Gerenciar Marcador / Etiqueta</a></li>
-              <li><a href="#bloco">Incluir em bloco</a></li>
-              <li><a href="#unidade">Acessar a unidade que o processo foi enviado</a></li>
+              <li><a href="#abrir-arquivo" onclick="irParaSlide(1)">Abrir o arquivo da MPU</a></li>
+              <li><a href="#checar-info" onclick="irParaSlide(1)">Checar as informações da MPU</a></li>
+              <li><a href="#checar-endereco" onclick="irParaSlide(1)">Checar endereço e/ou contato telefônico</a></li>
+              <li><a href="#iniciar-processo" onclick="irParaSlide(1)">Iniciar Processo na aba PM-CASNUPEVIDPMP</a></li>
+              <li><a href="#inserir-doc" onclick="irParaSlide(1)">Inserir documento</a></li>
+              <li><a href="#marcador" onclick="irParaSlide(1)">Gerenciar Marcador / Etiqueta</a></li>
+              <li><a href="#bloco" onclick="irParaSlide(1)">Incluir em bloco</a></li>
+              <li><a href="#unidade" onclick="irParaSlide(1)">Acessar a unidade que o processo foi enviado</a></li>
             </ol>
           </li>
-          <li><a href="#policiais">MPU envolvendo Policiais Militares</a></li>
-          <li><a href="#mandados">Mandados de Prisão</a></li>
+          <li><a href="#policiais" onclick="irParaSlide(2)">MPU envolvendo Policiais Militares</a></li>
+          <li><a href="#mandados" onclick="irParaSlide(3)">Mandados de Prisão</a></li>
         </ol>
       </nav>
 
-      <!-- ── SEÇÃO 1 ── -->
-      <hr class="secao-sep">
-      <section id="incluir-mpu" aria-labelledby="titulo-incluir">
+      <section id="incluir-mpu" class="slide" aria-labelledby="titulo-incluir">
         <h2 id="titulo-incluir">1. Incluir Medida Protetiva no SEI</h2>
 
         <ol>
-
           <li id="abrir-arquivo">
             <strong>Abrir o arquivo da MPU</strong>
           </li>
@@ -161,15 +190,10 @@
             </div>
             <img src="imagens/sei/sei16.png" alt="Gerenciar marcador na unidade">
           </li>
-
         </ol>
-
-        <a href="#topo" class="topo">▲ Início</a>
       </section>
 
-      <!-- ── SEÇÃO 2 ── -->
-      <hr class="secao-sep">
-      <section id="policiais" aria-labelledby="titulo-policiais">
+      <section id="policiais" class="slide" aria-labelledby="titulo-policiais">
         <h2 id="titulo-policiais">2. MPU envolvendo Policiais Militares</h2>
 
         <ol>
@@ -190,13 +214,9 @@
             (pasta CEMMPU).
           </li>
         </ol>
-
-        <a href="#topo" class="topo">▲ Início</a>
       </section>
 
-      <!-- ── SEÇÃO 3 ── -->
-      <hr class="secao-sep">
-      <section id="mandados" aria-labelledby="titulo-mandados">
+      <section id="mandados" class="slide" aria-labelledby="titulo-mandados">
         <h2 id="titulo-mandados">3. Mandados de Prisão</h2>
 
         <ol>
@@ -212,19 +232,64 @@
             <strong>Batalhão da área correspondente</strong>.
           </li>
         </ol>
-
-        <a href="#topo" class="topo">▲ Início</a>
       </section>
 
-    </div><!-- /mpu-content -->
-  </main>
+      <div class="navegacao-slides">
+        <button class="btn-slide" id="btn-menu" onclick="irParaSlide(0)">☰ Menu</button>
+        <button class="btn-slide" id="btn-anterior" onclick="mudarSlide(-1)">⬅️ Anterior</button>
+        <button class="btn-slide" id="btn-proximo" onclick="mudarSlide(1)">Próximo ➡️</button>
+      </div>
+
+    </div></main>
 
   <footer class="site-footer">
     <p>© <span id="ano"></span> NUPEVID – PMRO. Todos os direitos reservados.</p>
   </footer>
 
   <script>
+    // Define o ano atual no rodapé
     document.getElementById('ano').textContent = new Date().getFullYear();
+
+    // Lógica do Carrossel de Slides
+    let slideAtual = 0;
+    const slides = document.querySelectorAll('.slide');
+    const btnAnterior = document.getElementById('btn-anterior');
+    const btnProximo = document.getElementById('btn-proximo');
+
+    function mostrarSlide(indice) {
+      // Garante que o índice está dentro dos limites
+      if (indice < 0) indice = 0;
+      if (indice >= slides.length) indice = slides.length - 1;
+
+      slideAtual = indice;
+
+      // Remove a classe 'ativo' de todos os slides e adiciona apenas no atual
+      slides.forEach((slide, i) => {
+        if (i === slideAtual) {
+          slide.classList.add('ativo');
+        } else {
+          slide.classList.remove('ativo');
+        }
+      });
+
+      // Atualiza o estado dos botões (desabilita se for o primeiro ou o último)
+      btnAnterior.disabled = (slideAtual === 0);
+      btnProximo.disabled = (slideAtual === slides.length - 1);
+
+      // Sobe a página automaticamente para o início do slide
+      document.getElementById('topo').scrollIntoView({ behavior: 'smooth' });
+    }
+
+    function mudarSlide(direcao) {
+      mostrarSlide(slideAtual + direcao);
+    }
+
+    function irParaSlide(indice) {
+      mostrarSlide(indice);
+    }
+
+    // Inicializa os botões no primeiro carregamento
+    mostrarSlide(0);
   </script>
 </body>
 </html>
